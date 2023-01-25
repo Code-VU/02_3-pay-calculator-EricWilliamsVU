@@ -1,8 +1,8 @@
 def calculatePay():
     # Implement your solution in between the two comment blocks
     total_hours = float(input("Enter Hours:"))
-    pay_rate = float(input("Enter Rate:"))
-    total_pay = total_hours * pay_rate
+    hourly_rate = float(input("Enter Rate:"))
+    total_pay = total_hours * hourly_rate
     print(total_pay)
     # This first line is provided for you
     
